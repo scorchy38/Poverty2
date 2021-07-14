@@ -1,0 +1,91 @@
+.donor-carousel {
+  margin: 10px auto;
+  text-align: center;
+  
+}
+
+.donor-card {
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 2em auto;
+}
+
+.donor-img {
+  width: 37%;
+  text-align: center;
+}
+
+.donor-img img {
+  width: 200px;
+  height: 200px;
+  margin: 1em 2em;
+  padding: 5px;
+  border: 1px solid #f2b23d;
+}
+
+.donor-head,.donor-say h4 {
+  font-weight: bolder;
+}
+
+.donor-head {
+  text-align: center;
+  color: rgb(61, 61, 61);
+  margin: 12px auto;
+}
+
+.donor-say {
+  text-align: center;
+  width: 63%;
+}
+
+.donor-say h4 {
+  font-size: 1.2em;
+  color: #f2b23d;
+}
+
+.donor-carousel ol,
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+  display: none;
+}
+
+/* .carousel-control-next-icon, 
+.carousel-control-prev-icon {
+  background-position: center;
+  background-color: black;
+} */
+
+@media only screen and (max-width: 900px) {
+  .donor-card {
+    width: 90vw;
+    margin: 1em auto;
+  }
+
+  .donor-img {
+    width: 100%;
+  }
+  
+  .donor-img img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .donor-say {
+    text-align: center;
+    width: 100%;
+  }
+
+  .donor-carousel h2 {
+    font-size: 1.75em;
+  }
+  
+  .donor-say h4 {
+    font-size: 1em;
+  }
+
+  .donor-say p {
+    font-size: 0.8em;
+  }
+}

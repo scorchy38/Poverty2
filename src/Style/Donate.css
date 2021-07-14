@@ -1,0 +1,101 @@
+.donate-comp {
+  background-color: #4d4d4d;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+  margin: 30px auto;
+}
+
+.donate-text {
+  background: rgba(0, 0, 0, 0.7) url("../core/Assests/VWU.jpg") ;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 2em;
+  width: 67%;
+  text-align: right;
+  border-radius: 2px;
+  height: 400px;
+}
+
+.donate-buttons {
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donate-buttons a {
+  margin: 2px auto;
+}
+
+.donate {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  margin: 10px;
+  width: 175px;
+  padding: 0.75em 2em;
+  color: white;
+  font-weight: bold;
+  background-color: #f2b23d;
+}
+
+.donate-data {
+  border-bottom: #f2b23d solid 3px;
+  padding: 2em 0 1.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color:#4d4d4d;
+  font-size: 0.9em;
+  margin: 30px 0;
+}
+
+.donate-data-text h3 {
+  color: #14213d;
+  font-weight: bolder;
+}
+
+.donate-mission-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.donate-mission {
+  margin: 1em;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px rgb(230, 230, 230);
+  padding: 20px;
+}
+
+.donate-mission img {
+  width: 350px;
+  border-radius: 4px;
+  height: 250px;
+}
+
+.donate-mission p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.donate-mission button {
+  color: white;
+  background-color: #f2b23d;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  padding: 12px 0;
+  margin: 2em auto 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .donate {
+    margin-bottom: 2em;
+    width: 150px;
+  }
+}

@@ -1,0 +1,460 @@
+/* .map{
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: coral;
+    background-size: cover;
+    animation-name: dff;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+} */
+/* .amegira {
+  margin-top: -4em;
+} */
+.map{
+    margin: 70px 0px 0 0px;
+}
+@media screen and (max-width: 450px){
+    .map{
+        margin: 10px 0px 0 0px;
+    }   
+}
+/* @keyframes dff {
+    0%   {    background-image: url('./Assests/poor1.jpg');}
+    25%  {    background-image: url('./Assests/poor2.jpg');}
+    50%  {    background-image: url('./Assests/poor3.jpg');}
+    75%  {    background-image: url('./Assests/poor4.jpg');}
+    100% {    background-image: url('./Assests/team.svg');}
+  } */
+.scale{
+    background: url('./Assests/donate_image.png');
+    border-radius: 15px;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.scale h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 140%;
+    color: white!important;
+}
+ @media only screen and (max-width: 600px) {
+    .scale{
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    }
+    .scale-btn{
+        flex: top;
+        position: absolute;;
+        top: -90px;
+        margin: 0px;
+    }
+}
+/* @media only screen and (max-width: 600px) {
+    .scale{
+    background: url('../core/Assests/main_gareeb_hu.jpg');   
+    border-radius: 15px;
+     background-size:130%;
+     background-repeat: no-repeat;
+     background-color: rgb(138, 79, 138)!important;
+    }
+    .scale-btn{
+        flex: top;
+        position: absolute;;
+        top: -70px;
+        margin: 0px;
+    }
+} */
+
+  .card{
+    box-shadow: 7px 7px 7px 7px grey;
+    background-color: rgb(207, 206, 206);
+}
+
+.hh{
+  overflow: hidden !important;
+}
+
+/* .carousel-item{
+    padding-top: 1.5rem;
+} */
+
+/* .carousel-control-prev-icon,.carousel-control-next-icon{
+    position: relative;
+    margin-top: 15rem;
+}
+
+.carousel-item{
+    background-color: rgb(207, 206, 206);
+} */
+
+.car{
+    width:100%!important;
+    height:11rem!important;
+}
+
+.carouse
+.carousel-item{
+    background-color: rgb(255, 255, 255);
+}
+.carouse
+.carousel-control{
+    display: flex;
+}
+
+.vol{
+    box-shadow: 0px 2px rgb(44, 44, 44);
+}
+
+label{
+    font-size: .9rem;
+}
+input{
+    background-color: rgb(201, 198, 198)!important;
+    font-size: 1rem!important;
+}
+#gender{
+    background-color: #F2B23D !important;
+}
+
+.play{
+    margin-top: 4rem;
+    width:100%;
+    background-repeat: no-repeat;
+    background: url('./Assests/playground.png');
+}
+
+.play2{
+    margin-top: 4rem;
+    width:100%;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    background: url('./Assests/playground.png');
+}
+
+
+.swiip{
+    width: 85%;
+    height: auto;
+}
+.swiip img{
+    width: 100%;
+    height: auto;
+}
+.swiiip{
+    position: absolute;
+    bottom: 20px;
+    margin: auto;
+    width: 85%;
+}
+.swiiip h5{
+    color: white;
+    text-align: center;
+    font-size: 19px !important;
+}
+.swiiip button{
+    margin-left: 50%;
+    background-color: #FF0000;
+    transform: translateX(-50%);
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    border-radius: 5px;
+}
+.swiiip button span{
+    color: white;
+    padding: 0px 10px;
+}
+@media screen and (max-width: 1000px){
+    .swiip{
+        width: 120%;
+        height: 45vh;
+    }
+    .swiip img{
+        height: 100% !important;
+    }
+    .swiiip{
+        bottom: 60px;
+        width: 120%;
+        margin: auto !important;
+    }   
+    .swiiip h5{
+        text-align: center;
+        font-size: 17px !important;
+    }
+    .swiiip button{
+        margin-top: 6px;
+    }
+}
+@media screen and (max-width: 450px){
+    .swiip{
+        width: 100%;
+        height: 40vh;
+    }
+    .swiip img{
+        height: 100% !important;
+    }
+    .swiiip{
+        bottom: 30px;
+        width: 100%;
+    }   
+    .swiiip h5{
+        font-size: 18px !important;
+    }
+    .swiiip button{
+        margin-top: 6px;
+    }
+}
+
+.tosi{
+    box-shadow: 0 0 15px #6E6E6E;
+    min-height: 43.5vh;
+}
+.tosi1{
+    width: 40%;
+}
+.tosi1 img{
+    width: 100%;
+}
+.tosi2{
+    width: 60%;
+    margin-top: 10%;
+}
+.tosi2 h4{
+    font-size: 21px;
+    font-weight: bold;
+}
+.tosi2 h5{
+    font-size: 16px;
+}
+.tosi3{
+    margin: 20px 0;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+.tosi5{
+    display: flex;
+}
+.locard{
+    box-shadow: 0px 0px 10px grey;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.locard
+p{
+    height: 9rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.font{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 140%;
+    color: rgb(61, 61, 61);
+}
+
+.font2{
+    
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+    font-size: 2.7rem;
+    line-height: 140%;
+    color: rgb(61, 61, 61);
+}
+.font3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 540;
+    font-size: 14.4px;
+    line-height: 160%;
+    
+}
+.font4{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 150%;
+    color: rgb(68, 67, 67);
+    
+}
+
+.card2{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.font5{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-stretch: wider;
+    font-size: 3rem;
+    line-height: 140%;
+    color: rgb(61, 61, 61);
+}
+
+
+
+.sic{
+    width: 72%;
+    margin: auto;
+    padding: 40px 0;
+}
+.sic img{
+    width: 100%;
+    height: 90vh;
+}
+@media screen and (max-width: 850px){
+    .sic{
+        width: 100% !important;
+        margin: none !important;
+        padding: 40px 0;
+    }
+    .sic img{
+        width: 100%;
+        height: auto;
+    }   
+}
+.esst{
+    height: 40vh;
+    width: 90%;
+}
+.teesst{
+    width: 85%;
+    margin: auto;
+}
+
+@media screen and (max-width: 750px){
+    .esst{
+        height: 40vh;
+        width: auto;
+    }
+    .teesst{
+        width: 90%;
+        padding-top: 40px;
+        margin: auto;
+        margin-bottom: -40px;
+    }   
+}
+
+.play-btn:hover{
+    background-color: red;
+    position: relative;
+    top: 3px;
+    animation-duration: 200s all;
+    }
+    
+    .play-btn:active,:hover{
+        border-color: none;
+    }
+    
+    .play-btn{
+        background-color: rgb(83, 83, 83);
+        }
+    
+    .modal-play{
+        width:100%!important;
+        height: 100%!important;
+    }
+    .feature
+    .carousel-inner .carousel-item {
+        transition: -webkit-transform 4.9s linear;
+        transition: transform 4.9s linear;
+        transition: transform 4.9s linear, -webkit-transform 4.9s linear;
+      }
+     
+      .feature
+      .carousel-item{
+        background-color: rgb(255, 255, 255);
+    }
+
+@media screen and (max-width: 750px){
+    #hii{
+        margin-top: -60px !important;
+    }
+}
+@media screen and (max-width: 770px){
+    .homw{
+        margin-bottom: -114px;
+    }
+    .homw1{
+        margin-bottom: 40px;
+    }
+    .homw2{
+        margin-bottom: -114px;
+    }
+}
+
+.hours
+input{
+    background-color: rgb(253, 183, 53)!important;
+    font-size: 1rem!important;
+}
+.hours
+select{
+    background-color: lightblue;
+}
+
+.r1{
+    display: inline;
+    width: 85%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: .6s
+}
+.r2{
+    width: 0%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: .1s
+}
+.r3{
+    width: 0%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: .1s
+}
+
+@media only screen and (max-width:716px){
+
+    .r1{
+        width:0%;
+    }
+    .r3{
+        width:100%;
+    }
+    .carousel-item
+    font2{
+        
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    font-size: 1rem!important;
+    line-height: 100%;
+    color: rgb(61, 61, 61);
+    }
+   
+}
+
+@media only screen and (max-width:530px){
+
+    
+    .r3{
+        width:0%;
+    }
+    .r2{
+        width:100%;
+    }
+    
+}

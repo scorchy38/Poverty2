@@ -1,0 +1,814 @@
+{/* <div data-aos="fade-in" className="container mt-2 p-2">
+                    <div className="row m-auto">
+                        <div className="col-sm-12 col-md-6  mt-5">
+                            <div className="row m-auto">
+                                <div className="col-sm-12 p-2">
+                                    <h1 className="font">EMPOWERING THROUGH WEALTH OF ART</h1>
+                                </div>
+                                <div className="col-sm-4 p-3 m-3">
+                                    <img src={Sin} style={{ width: '100%' }} />
+                                </div>
+                                <div className="col-sm-7 p-3">
+                                    <p className="font3">Started in 2016, Dance Out of Poverty is the flagship initiative of Sinhayana Foundation, an independent, non-profit organization. The initiative aims at empowering underprivileged children by providing free of cost dance education and instilling life skills.</p>
+                                    <a className="m-2 text-warning" href="/about us">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" className="col-sm-12 col-md-6  map">
+                            <Swiper
+                                effect="fade"
+                                grabCursor="true"
+                                pagination={{
+                                    el: '.swiper-pagination',
+                                }}
+                                cubeEffect={{
+                                    shadow: false,
+                                    slideShadows: false,
+                                    shadowOffset: 0,
+                                    shadowScale: 0,
+                                }}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: true,
+                                }}
+                                loop='true'
+                                loopedSlides='5'
+                                loopAdditionalSlides='2'
+                            >
+                                <SwiperSlide><div className="swiip">
+                                    <img src={car1} alt="" />
+
+                                </div></SwiperSlide>
+                                <SwiperSlide><div className="swiip">
+                                    <img src={car2} alt="" />
+                                </div></SwiperSlide>
+                                <SwiperSlide><div className="swiip">
+                                    <img src={car3} alt="" />
+                                </div></SwiperSlide>
+                                <SwiperSlide><div className="swiip">
+                                    <img src={car1} alt="" />
+                                </div></SwiperSlide>
+                            </Swiper>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in" className="container p-2 mt-5 homw">
+                    <div className="row m-auto">
+                        <div className="col-sm-12 col-md-6 mt-4 pt-4">
+                            <img src={Vis} style={{ width: '85%' }} />
+                        </div>
+                        <div className="col-sm-12 col-md-6  p-5">
+                            <h2 className="mb-3 font2">Our Programs</h2>
+                            <p className="font3">By organizing workshops within the slum areas, we try to use dance as a therapy to channelize their energy and teach them life skills. For they are more receptive to knowledge while they are happy and happiness comes naturally with dance.
+
+                        At Dance out of Poverty we take auditions to select children who have talent and passion for dance. In the process, a lot of kids get left out because they never had the opportunity to get any sort of dance training.</p>
+                            <a className="text-warning" href="/all/program">Read More</a>
+                        </div>
+                    </div>
+
+                </div> */}
+
+{/* below is commented actor craousel code replaced by Donor with props comp*/ }
+                {/* <div className="container mb-2 bg-dark mt-5 px-2 pt-2 p-0 ">
+                    <div className="row m-auto">
+                        <div data-aos="fade-out" className="col-sm-12 bg-dark card">
+
+                            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+                                <div className="carousel-inner bg-dark">
+                                    <h2 className="m-1 font1 text-center text-warning">Supported/Appreciated by</h2>
+                                    <div className="carousel-item bg-dark active">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele1} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Disha Patani</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actress</p>
+                                            </div>
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">Dance Out of Poverty’s performance was one of the best live performance I’ve seen dedicated to our film.The presentation was beautiful.</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Shi} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Shiamak Davar</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Choreographer</p>
+                                            </div>
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">Dance out of poverty is one the most beautiful things I’ve heard of, because its actually making people empowered, they are empowered to now not be where they are in their poverty areas, but to come out through dance.</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele2} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Divya Khosla Kumar</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actress</p>
+                                            </div>
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">Its such a big opportunity for underprivileged children and i am so happy to be a part of it.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele3} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Hritik Roshan</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actor</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">What an initiative this is, absolutely incredible. The passion with which the kids dance is really inspiring, It’s been an honour to dance with them. If there is anything that I can do for any of the kids or for this initiative, do let me know because i really want to. </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele4} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Kriti Sanon</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actress</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">I really support this, its very very nice. I would love to come and dance with the kids someday.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele5} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Rakul Preet</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actress</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">Kudos to this initiative for providing a plateform for these kids and making sure that they do well in different walks of life.The presentation was beautiful </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele6} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Ranbir Kapoor</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actor</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light"> I understand that these children come for underprivileged families, the fact that you can give them dance and some form to express themselves,there is nothing better than this.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele7} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Saroj Khan</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Choreographer</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light"> If people lend support to Dance out of poverty,no talented kid will be left out on the streets.The presentation was beautiful.You have all our support.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele8} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Tiger Shroff</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actor</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light">  It’s a fantastic initiative, these kids get to express their talents, especially because they dont’t get the chance to do it on their own. So because of the initiative,they are getting a chance to do it.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele9} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Sidhart Malhotra</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actor</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light"> I was blown away by their genuine skill and talent that they have been training for.Its a lovely initiative and full power to all the kids at “Dance out of Poverty”</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="carousel-item bg-dark">
+                                        <div className="row m-auto text-left">
+                                            <div className="col-sm-12 text-center m-0 p-1">
+                                                <img src={Cele} alt="Alt" style={{ width: '10rem', 'border-radius': '50%' }} />
+                                            </div>
+                                            <div className="col-sm-12 flex-center text-center">
+                                                <h1 className="font2 text-warning">Amitabh Bachchan</h1>
+                                                <p className="font3 text-secondary" style={{ 'font-size': '1.5rem' }}>Actor</p>
+                                            </div>
+
+                                            <div className="col-sm-12 text-center mt-0 p-1">
+                                                <p className="font3 text-light"> Dance Out of Poverty delivered a performance full of talent.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <a target="_blank" className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
+                                </a>
+                                <a target="_blank" className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>*/}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+// <div className="col-sm-12 text-center feature p-1 m-2">
+// <h1 className="text-warning font2">Featured In</h1>
+// </div>
+
+// <div className="col-sm-12 mt-1 feature p-3">
+// <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
+
+//     <ol className="carousel-indicators">
+//         <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
+//         <li data-target="#multi-item-example" data-slide-to="1"></li>
+//         <li data-target="#multi-item-example" data-slide-to="2"></li>
+
+//     </ol>
+//     <div className="carousel-inner" role="listbox">
+
+//         <div className="carousel-item active">
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a target="_blank" href="https://www.asianage.com/life/more-features/290817/a-dance-revolution.html"><img className="card-img-top"
+//                         src={asia} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a target="_blank" href="https://www.thebetterindia.com/113068/can-poverty-be-lifted-through-dance-this-ngo-is-proving-that-it-can/"><img className="card-img-top"
+//                         src={better} alt="Card image cap" /></a>
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a target="_blank" href="https://www.google.com/url?sa=D&q=https://www.pinkvilla.com/news/music/360586/underprivileged-children-put-spectacular-show-dance-out-poverty-showcase&ust=1602957840000000&usg=AOvVaw0CBvmiexm3urP6CHMTnQYi&hl=en&source=gmail"><img className="card-img-top"
+//                         src={pink} alt="Card image cap" /></a>
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a target="_blank" href="https://in.style.yahoo.com/hrithik-roshan-launches-dance-hrithik-123116412.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACWqEnFQeIkBgAhiXa_Obrl0PqrcWAe10foxevGcF9xtFHHYg8yU0kQd9y3Zma-psFn75Kh_C0LGQYHJky793RFEFUXtThG8rk5dClpQYNo0jn3jaj8UYVX3XapuoDPj6eSwY-aQor8VXrSijyA3B3HaSEz9l1TkQHru1fQY2bI9"><img className="card-img-top"
+//                         src={yahoo} alt="Card image cap" /></a>
+//                 </div>
+//             </div>
+
+//         </div>
+//         <div className="carousel-item">
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a target="_blank" href="https://www.google.com/url?sa=D&q=https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/super-30-hrithik-roshan-and-mrunal-thakur-dance-with-ngo-kids/articleshow/70145447.cms&ust=1602957840000000&usg=AOvVaw0cLo5AS3_AtRAMycZRN2T_&hl=en&source=gmail"><img className="card-img-top"
+//                         src={TOI} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a href="https://www.hindustantimes.com/videos/entertainment/hrithik-roshan-mrunal-thakur-dance-with-ngo-kids-at-super-30-promotions/video-L0zdFLfZF9nTUodtLQUBfI.html" target="_blank"><img className="card-img-top"
+//                         src={hindustan} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a href="https://www.deccanchronicle.com/entertainment/bollywood/090719/hrithik-roshan-and-mrunal-thakur-launch-dance-with-hrithik-chec.html" target="_blank"><img className="card-img-top"
+//                         src={dc} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a href="https://www.filmfare.com/photos/hrithik-roshan-and-mrunal-thakur-promote-super-30-with-kids-34846.html" target="_blank"><img className="card-img-top"
+//                         src={film} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//         </div>
+
+//         <div className="carousel-item">
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a target="_blank" href="https://news.abplive.com/entertainment/movies/hrithik-roshan-launches-dance-with-hrithik-a-facebook-group-to-promote-self-expression-1029538"><img className="card-img-top"
+//                         src={abp} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a href="https://www.google.com/url?sa=D&q=https://www.bombaytimes.com/movies/india/kriti-sanon-gets-a-tribute-from-an-ngo-for-five-years-in-the-industry/articleshow/69495161.cms&ust=1602957840000000&usg=AOvVaw3Ymb2MyP6VtfwxG-vDM66x&hl=en&source=gmail" target="_blank"><img className="card-img-top"
+//                         src={bombay} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a href="https://www.mid-day.com/articles/kriti-sanon-gets-a-tribute-from-an-ngo-for-five-years-in-the-industry/21014159" target="_blank"><img className="card-img-top"
+//                         src={mid} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//             <div className="col-md-3" style={{ float: 'left' }}>
+//                 <div className="card mb-2">
+//                     <a href="/"><img className="card-img-top"
+//                         src={pk} alt="Card image cap" /></a>
+
+//                 </div>
+//             </div>
+
+//         </div>
+
+
+
+//     </div>
+
+// </div>
+// </div>
+
+
+
+
+
+
+
+
+
+
+
+//courousal
+
+// <div>
+// <div className="teesst">
+//     <AliceCarousel
+//         items={state1}
+//         mouseTracking={true}
+//         grabCursor={true}
+//         responsive={responsive}
+//         autoPlayInterval={2000}
+//         autoPlayDirection="ltr"
+//         autoPlay={true}
+//         fadeOutAnimation={true}
+//         playButtonEnabled={false}
+//         disableAutoPlayOnAction={true}
+//         dotsDisabled={false}
+//         infinite={true}
+//     />
+// </div>
+// </div>
+
+
+
+
+
+
+
+
+
+// <div data-aos="zoom-in" className="container mt-5 p-2">
+// <div className="row m-auto">
+//     <div className="col-md-5 pt-4" style={{ overflow: 'hidden' }}>
+//         <Swiper
+//             effect="cube"
+//             grabCursor="true"
+//             pagination={{
+//                 el: '.swiper-pagination',
+//             }}
+//             cubeEffect={{
+//                 shadow: false,
+//                 slideShadows: false,
+//                 shadowOffset: 5,
+//                 shadowScale: 0.94,
+//             }}
+//             autoplay={{
+//                 delay: 3000,
+//                 disableOnInteraction: true,
+//             }}
+//             loop='true'
+//             loopedSlides='5'
+//             loopAdditionalSlides='2'
+//         >
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele1} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Disha Patani</h4>
+//                             <h5>Actress</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> Dance Out of Poverty’s performance was one of the best live performance I’ve seen dedicated to our film.The presentation was beautiful.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Shi} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Shiamak Davar</h4>
+//                             <h5>Choreographer</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p>Dance out of poverty is one the most beautiful things I’ve heard of, because its actually making people empowered, they are empowered to now not be where they are in their poverty areas, but to come out through dance.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele2} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Divya Khosla Kumar</h4>
+//                             <h5>Actress</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> Its such a big opportunity for underprivileged children and i am so happy to be a part of it.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele3} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Hritik Roshan</h4>
+//                             <h5>Actor</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p>What an initiative this is, absolutely incredible. The passion with which the kids dance is really inspiring, It’s been an honour to dance with them. If there is anything that I can do for any of the kids or for this initiative, do let me know because i really want to. </p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele4} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Kriti Sanon</h4>
+//                             <h5>Actress</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p>I really support this, its very very nice. I would love to come and dance with the kids someday.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele5} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Rakul Preet</h4>
+//                             <h5>Actress</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p>Kudos to this initiative for providing a plateform for these kids and making sure that they do well in different walks of life.The presentation was beautiful </p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele6} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Ranbir Kapoor</h4>
+//                             <h5>Actor</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> I understand that these children come for underprivileged families, the fact that you can give them dance and some form to express themselves,there is nothing better than this.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele7} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Saroj Khan</h4>
+//                             <h5>Choreographer</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> If people lend support to Dance out of poverty,no talented kid will be left out on the streets.The presentation was beautiful.You have all our support.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele8} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Tiger Shroff</h4>
+//                             <h5>Actor</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> It’s a fantastic initiative, these kids get to express their talents, especially because they dont’t get the chance to do it on their own. So because of the initiative,they are getting a chance to do it.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele9} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Sidhart Malhotra</h4>
+//                             <h5>Actor</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> I was blown away by their genuine skill and talent that they have been training for.Its a lovely initiative and full power to all the kids at “Dance out of Poverty” </p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//             <SwiperSlide>
+//                 <div className="tosi">
+//                     <div className="tosi5">
+//                         <div className="tosi1">
+//                             <img src={Cele} alt="Alt" style={{ width: '90%' }} />
+//                         </div>
+//                         <div className="tosi2">
+//                             <h4>Amitabh Bachchan</h4>
+//                             <h5>Actor</h5>
+//                         </div>
+//                     </div>
+//                     <div className="tosi3">
+//                         <p> Dance Out of Poverty delivered a performance full of talent.</p>
+//                     </div>
+//                 </div>
+//             </SwiperSlide>
+//         </Swiper>
+//     </div>
+
+//     <div className="col-sm-12 col-md-6  offset-md-1">
+//         <div className="row m-auto">
+//             <div className="col-sm-12 text-secondary p-2">
+//                 <h2 className="m-2 font4">Support / Appreciation</h2>
+//             </div>
+//             <div className="col-sm-12 p-2 font3">
+//                 Qui architecto est consequatur consequuntur qui. Qui fuga at ducimus. Officia tempore voluptas deleniti voluptatem dolorem deleniti est. Qui dolore eos et perferendis qui omnis. Rerum odio sequi aut.
+
+//                 Error labore eos ad et et saepe est harum. Ipsum magni natus ut sint eligendi fugit perferendis aliquid. Neque earum itaque necessitatibus iste architecto ipsam sunt. Dolores rerum odio esse saepe.
+//     </div>
+//         </div>
+//     </div>
+// </div>
+// </div>
+
+// <div data-aos="zoom-in" className="container mt-5 p-2">
+// <div className="row m-auto pt-4">
+//     <div className="col-sm-12 col-md-6 ">
+//         <h2 className="text-secondary font2 m-2 text-right">Video Library</h2>
+//         <p className="text-right font3">Qui architecto est consequatur consequuntur qui. Qui fuga at ducimus. Officia tempore voluptas deleniti voluptatem dolorem deleniti est. Qui dolore eos et perferendis qui omnis. Rerum odio sequi aut.
+
+// Error labore eos ad et et saepe est harum. Ipsum magni natus ut sint eligendi fugit perferendis aliquid. Neque earum itaque necessitatibus iste architecto ipsam sunt. Dolores rerum odio esse saepe. </p>
+//     </div>
+//     <div className="offset-md-1 pt-4 col-sm-11 col-md-5">
+//         <Swiper
+//             effect="cube"
+//             grabCursor="true"
+//             pagination={{
+//                 el: '.swiper-pagination',
+//             }}
+//             cubeEffect={{
+//                 shadow: false,
+//                 slideShadows: false,
+//                 shadowOffset: 0,
+//                 shadowScale: 0,
+//             }}
+//             autoplay={{
+//                 delay: 3000,
+//                 disableOnInteraction: true,
+//             }}
+//             loop='true'
+//             loopedSlides='5'
+//             loopAdditionalSlides='2'
+//         >
+//             <SwiperSlide><div className="swiip">
+//                 <img src={car1} alt="" />
+//                 <div className="swiiip"><h5>Heeriye: Dance Choreography</h5>
+//                     <button><span><i className="fa fa-youtube-play"></i></span>Watch</button>
+//                 </div>
+//             </div></SwiperSlide>
+//             <SwiperSlide><div className="swiip">
+//                 <img src={car2} alt="" />
+//                 <div className="swiiip"><h5>Heeriye: Dance Choreography</h5>
+//                     <button><span><i className="fa fa-youtube-play"></i></span>Watch</button>
+//                 </div>
+//             </div></SwiperSlide>
+//             <SwiperSlide><div className="swiip">
+//                 <img src={car3} alt="" />
+//                 <div className="swiiip"><h5>Heeriye: Dance Choreography</h5>
+//                     <button><span><i className="fa fa-youtube-play"></i></span>Watch</button>
+//                 </div>
+//             </div></SwiperSlide>
+//             <SwiperSlide><div className="swiip">
+//                 <img src={car1} alt="" />
+//                 <div className="swiiip"><h5>Heeriye: Dance Choreography</h5>
+//                     <button><span><i className="fa fa-youtube-play"></i></span>Watch</button>
+//                 </div>
+//             </div></SwiperSlide>
+//         </Swiper>
+//     </div>
+// </div>
+// </div>
+
+// <div data-aos="zoom-in" className="container p-2 mt-5 homw1">
+// <div className="row m-auto">
+//     <div className="col-sm-12 col-md-6  p-5">
+//         <h2 className="mb-3 font2">Our Journey</h2>
+//         <p className="font3">Started in 2016, Dance Out of Poverty is the flagship initiative of Sinhayana Foundation, an independent, non-profit organization. The initiative aims at empowering underprivileged children by providing free of cost dance education and instilling life skills. At Dance Out Of Poverty, their energy is channelized by keeping them away from bad influences like drugs, stealing, etc. The focus is on nurturing the students and making them proficient to dance their way out of poverty!</p>
+//     </div>
+//     <div className="col-sm-12 col-md-6 ">
+//         <img src={Jor} style={{ width: '85%' }} />
+//     </div>
+// </div>
+// </div>

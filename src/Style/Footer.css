@@ -1,0 +1,168 @@
+.footer,
+.footer-content{
+  display: flex;
+}
+
+.footer {
+  flex-direction: column;
+  color: white;
+  background-color: #4f4f4f;
+}
+
+.footer-content {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em 3em;
+}
+
+.footer-comp {
+  margin: 2em;
+  width: 200px;
+}
+
+.footer-comp h4 {
+  color: #f2b23b;
+  font-weight: bold;
+}
+
+.footer-comp li {
+  display: inline;
+  list-style: none;
+  padding: 1em 1.2em 1em 0;
+}
+
+.footer-comp li a,
+.footer-comp li a:active,
+.footer-comp button a{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.footer-comp li a:hover {
+  color: #f2b23b;
+}
+
+.footer-comp button {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #f2b23b;
+  margin: 1em 0;
+  padding: 0.5em 2em;
+}
+
+.email-input,
+.email-input:focus {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  border-bottom: 4px solid #f2b23b;
+  background-color: #4f4f4f !important;
+  color: white !important;
+  padding: 0.5em;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.donate-vertical {
+  position: fixed;
+  padding: 0.5em 1.5em;
+  top: 40%;
+  z-index: 1000;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0%;
+  background-color: #f2b23b;
+  border: none;
+  outline: none;
+  transform-origin: 100% 100%;
+  transform: rotate(-90deg);
+}
+
+.donate-vertical:hover {
+  background-color: #4F4F4F;
+  transition: all ease-out 0.2s;
+}
+
+.donate-vertical a,
+.donate-vertical a:hover,
+.donate-vertical a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer-content {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .footer-comp h4 {
+    font-size: 1.25em;
+  }
+  
+  .footer-comp {
+    margin: 0.5em;
+    width: auto;
+  }
+
+  .footer-comp p {
+    font-size: 0.75em;
+  }
+
+  .footer-comp li {
+    padding: 1em 1.2em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-comp {
+    width: 100%;
+  }
+
+  .footer-comp button {
+    font-size: 0.8em;
+    margin: 1em 0;
+    padding: 0.5em 2em;
+  }
+  
+  .email-input,
+  .email-input:focus {
+    font-size: 0.75em !important;
+    width: 60vw;
+    padding: 0.5em;
+  }
+  
+  .icon-bar {
+    display: none;
+  }
+
+  .icon-bar-small {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .donate-vertical {
+    padding: 0.25em 1.25em;
+  }
+  
+  .donate-vertical a,
+  .donate-vertical a:hover,
+  .donate-vertical a:visited {
+    font-size: 1em;
+  }
+}
